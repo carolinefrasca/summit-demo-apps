@@ -1,5 +1,6 @@
 import streamlit as st
 import webbrowser
+import itertools
 
 st.set_page_config(
     page_title="Streamlit Cloud Example Apps",
