@@ -113,7 +113,7 @@ def navbar():
     )
 
 st.image("https://streamlit.io/images/brand/streamlit-mark-color.png", width=100)
-st.title("Snowflake Summit '23: Demo Apps")
+st.title("Snowflake Summit Demo Apps")
 # st.write(
 #     "🚀 To deploy an app with your own [Streamlit Cloud](https://share.streamlit.io/) account,"
 #     " click 'View App Repo'"
