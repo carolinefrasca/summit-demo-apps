@@ -190,7 +190,7 @@ def app(name, description, image, link, repo_name):
 #     clone_code = "git clone {} ".format(repo_name)
 #     st.code(clone_code, language="python")
     repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
-    st.write("[👀 View App Repo](%s)" % repo_link)
+    st.write("[View GitHub Repo](%s)" % repo_link)
     st.write("")
 
 category("📊 Data Visualization")
