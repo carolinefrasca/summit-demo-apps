@@ -1,6 +1,4 @@
-import itertools
 import streamlit as st
-import ui
 import webbrowser
 
 st.set_page_config(
