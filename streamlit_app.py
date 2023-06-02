@@ -193,7 +193,7 @@ def app(name, description, image, link, repo_name):
     st.write("[View GitHub Repo](%s)" % repo_link)
     st.write("")
 
-category("📊 Data Visualization")
+category("🗣️ Large Language Models")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
@@ -248,7 +248,7 @@ with col3:
         "demo-self-driving",
     )
 
-category("📦 Product")
+category("📊 Data Visualization")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
