@@ -198,7 +198,7 @@ with col1:
     app(
         "Interactive Data",
         "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
-        "images/Uber.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
         "demo-uber-nyc-pickups",
     )
@@ -206,7 +206,7 @@ with col2:
     app(
         "Data Wrangler",
         "Explore data from a CSV by uploading the CSV and converting it into an interactive dataframe.",
-        "images/CSVWrangler.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
         "example-app-csv-wrangler",
 
@@ -215,7 +215,7 @@ with col3:
     app(
         "Finance Explorer",
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
-        "images/FinanceExplorer.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
         "example-app-crypto-dashboard",
     )
@@ -226,7 +226,7 @@ with col1:
     app(
         "Model Debugger",
         "Visualize your model to debug the output. This app uses Tensorflow and GAN to generate photorealistic images.",
-        "images/FaceGAN.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/demo-face-gan/",
         "demo-face-gan",
     )
@@ -234,7 +234,7 @@ with col2:
     app(
         "ML Tools",
         "Create machine learning tools for others to use your models. This app generates images using the Deep Dream technique.",
-        "images/DeepDream.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/demo-deepdream/master",
         "demo-deepdream",
     )
@@ -242,7 +242,7 @@ with col3:
     app(
         "Data Browser",
         "Explore large datasets for input into ML models. This app displays self-driving car data and does real-time detection using YOLO.",
-        "images/SelfDriving.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/demo-self-driving/master",
         "demo-self-driving",
     )
@@ -253,7 +253,7 @@ with col1:
     app(
         "Info Sharing",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
-        "images/Roadmap.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/roadmap",
         "roadmap",
     )
@@ -272,7 +272,7 @@ with col1:
     app(
         "Database Example",
         "Easily collect data from users and write to a database.",
-        "images/BugReport.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-bug-report/main",
         "example-app-bug-report",
     )
@@ -280,7 +280,7 @@ with col2:
     app(
         "File Generation",
         "Quickly generate a PDF file using data collected from user input.",
-        "images/PDFGenerator.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-pdf-report/main",
         "example-app-pdf-report",
     )
@@ -288,7 +288,7 @@ with col3:
     app(
         "Collaboration",
         "Allow viewers of your app to collaborate via a commenting feature.",
-        "images/Comments.png",
+        "images/ABTesting.png",
         "https://share.streamlit.io/streamlit/example-app-commenting/main",
         "example-app-commenting",
     )
