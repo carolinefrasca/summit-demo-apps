@@ -221,7 +221,7 @@ with col3:
         "example-app-crypto-dashboard",
     )
 
-category("🧠 Machine Learning")
+category("❄ Snowflake Powered")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
