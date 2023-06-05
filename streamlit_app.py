@@ -177,12 +177,12 @@ def category(name, description=None):
 def app(name, description, image, link, repo_name):
     ui.linked_image(image, link)
     st.subheader(f"[{name}]({link})")
-    st.write(f"[View App]({link})")
     st.caption(description)
 #     st.caption(f"[{description}]({link})")
 #     clone_code = "git clone {} ".format(repo_name)
 #     st.code(clone_code, language="python")
     repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
+    st.write(f"[View App]({link})")
     st.write("[View GitHub Repo](%s)" % repo_link)
     st.write("")
 
