@@ -221,7 +221,7 @@ with col3:
         "example-app-crypto-dashboard",
     )
 
-category("❄ Snowflake Powered")
+category("❄️ Snowflake Powered")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
@@ -267,7 +267,7 @@ with col2:
         "example-app-ab-testing",
     )
     
-category("🦄 Other")
+category("🏆 Summit Hackathon Winners")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
