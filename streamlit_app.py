@@ -174,14 +174,14 @@ def category(name, description=None):
 
     # current_category_index += 1
 
-def app(name, description, image, link, repo_name):
+def app(name, description, image, link, repo_link):
     ui.linked_image(image, link)
     st.subheader(f"[{name}]({link})")
     st.caption(description)
 #     st.caption(f"[{description}]({link})")
 #     clone_code = "git clone {} ".format(repo_name)
 #     st.code(clone_code, language="python")
-    repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
+#     repo_link = "https://github.com/streamlit/{0}/".format(repo_name)
     st.write(f"[View App]({link})")
     st.write("[View GitHub Repo](%s)" % repo_link)
     st.write("")
@@ -190,28 +190,28 @@ category("🗣️ Large Language Models")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Interactive Data",
+        "GPT Lab",
         "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
         "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/demo-uber-nyc-pickups",
-        "demo-uber-nyc-pickups",
+        "https://gptlab.streamlit.app/",
+        "https://github.com/dclin/gptlab-streamlit",
     )
 with col2:
     app(
-        "Data Wrangler",
+        "Ask my PDF",
         "Explore data from a CSV by uploading the CSV and converting it into an interactive dataframe.",
         "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-csv-wrangler/main/app.py",
-        "example-app-csv-wrangler",
+        "https://ask-my-pdf.streamlit.app/",
+        "https://github.com/mobarski/ask-my-pdf",
 
     )
 with col3:
     app(
-        "Finance Explorer",
+        "HugChat",
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
         "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-crypto-dashboard/main/app.py",
-        "example-app-crypto-dashboard",
+        "https://hugchat.streamlit.app/",
+        "https://github.com/dataprofessor/hugchat",
     )
 
 category("❄️ Snowflake Powered")
