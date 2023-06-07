@@ -238,7 +238,7 @@ with col3:
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
         "images/gpt-4-auto-coder.png",
         "https://gpt4autocoder.streamlit.app/",
-        "https://github.com/echohive42/gpt4_autocoder,
+        "https://github.com/echohive42/gpt4_autocoder",
     )
 
 category("❄️ Snowflake Powered")
