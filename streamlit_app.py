@@ -227,7 +227,7 @@ with col2:
     app(
         "rephraise",
         "Explore data from a CSV by uploading the CSV and converting it into an interactive dataframe.",
-        "images/ABTesting.png",
+        "images/rephraise.png",
         "https://stefanrmmr-gpt3-email-generator-streamlit-app-ku3fbq.streamlit.app/",
         "https://github.com/stefanrmmr/GPT_email_generator",
 
