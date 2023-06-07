@@ -217,28 +217,28 @@ with col3:
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "GPT Lab",
+        "KnowledgeGPT",
         "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
         "images/ABTesting.png",
-        "https://gptlab.streamlit.app/",
-        "https://github.com/dclin/gptlab-streamlit",
+        "https://knowledgegpt.streamlit.app/",
+        "https://github.com/mmz-001/knowledge_gpt",
     )
 with col2:
     app(
-        "Ask my PDF",
+        "rephraise",
         "Explore data from a CSV by uploading the CSV and converting it into an interactive dataframe.",
         "images/ABTesting.png",
-        "https://ask-my-pdf.streamlit.app/",
-        "https://github.com/mobarski/ask-my-pdf",
+        "https://stefanrmmr-gpt3-email-generator-streamlit-app-ku3fbq.streamlit.app/",
+        "https://github.com/stefanrmmr/GPT_email_generator",
 
     )
 with col3:
     app(
-        "HugChat",
+        "GPT-4 Auto Coder",
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
-        "images/ABTesting.png",
-        "https://hugchat.streamlit.app/",
-        "https://github.com/dataprofessor/hugchat",
+        "images/gpt-4-auto-coder.png",
+        "https://gpt4autocoder.streamlit.app/",
+        "https://github.com/echohive42/gpt4_autocoder,
     )
 
 category("❄️ Snowflake Powered")
