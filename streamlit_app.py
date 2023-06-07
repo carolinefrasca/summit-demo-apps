@@ -213,6 +213,33 @@ with col3:
         "https://hugchat.streamlit.app/",
         "https://github.com/dataprofessor/hugchat",
     )
+    
+col1, col2, col3 = st.columns(3)
+with col1:
+    app(
+        "GPT Lab",
+        "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
+        "images/ABTesting.png",
+        "https://gptlab.streamlit.app/",
+        "https://github.com/dclin/gptlab-streamlit",
+    )
+with col2:
+    app(
+        "Ask my PDF",
+        "Explore data from a CSV by uploading the CSV and converting it into an interactive dataframe.",
+        "images/ABTesting.png",
+        "https://ask-my-pdf.streamlit.app/",
+        "https://github.com/mobarski/ask-my-pdf",
+
+    )
+with col3:
+    app(
+        "HugChat",
+        "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
+        "images/ABTesting.png",
+        "https://hugchat.streamlit.app/",
+        "https://github.com/dataprofessor/hugchat",
+    )
 
 category("❄️ Snowflake Powered")
 col1, col2, col3 = st.columns(3)
