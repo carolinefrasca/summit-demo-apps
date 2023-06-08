@@ -200,7 +200,7 @@ with col2:
     app(
         "Ask my PDF",
         "Explore data from a CSV by uploading the CSV and converting it into an interactive dataframe.",
-        "images/ABTesting.png",
+        "images/AskMyPDF.png",
         "https://ask-my-pdf.streamlit.app/",
         "https://github.com/mobarski/ask-my-pdf",
 
