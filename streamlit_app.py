@@ -256,7 +256,7 @@ with col2:
         "DCR Setup Assistant",
         "Create machine learning tools for others to use your models. This app generates images using the Deep Dream technique.",
         "images/DCRSetup.png",
-        "https://snowflake-labs-sfquickstart-data-cle-dcr-setup-assistant-bkx7gg.streamlit.app/,
+        "https://snowflake-labs-sfquickstart-data-cle-dcr-setup-assistant-bkx7gg.streamlit.app/",
         "demo-deepdream",
     )
 with col3:
