@@ -177,7 +177,7 @@ def category(name, description=None):
 def app(name, description, image, link, repo_link):
     ui.linked_image(image, link)
     st.subheader(f"[{name}]({link})")
-    st.caption(description)
+#     st.caption(description)
 #     st.caption(f"[{description}]({link})")
 #     clone_code = "git clone {} ".format(repo_name)
 #     st.code(clone_code, language="python")
@@ -245,11 +245,11 @@ category("❄️ Snowflake Powered")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Model Debugger",
+        "CSV Snowpark Uploader",
         "Visualize your model to debug the output. This app uses Tensorflow and GAN to generate photorealistic images.",
-        "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/demo-face-gan/",
-        "demo-face-gan",
+        "images/SnowparkUploader.png",
+        "https://snowpark-python-loader.streamlit.app/",
+        "https://github.com/mellymel-appdev4ever/snowloader2",
     )
 with col2:
     app(
