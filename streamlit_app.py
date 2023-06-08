@@ -209,7 +209,7 @@ with col3:
     app(
         "HugChat",
         "Look at live data and compare trends. This app uses the Binance API to explore crypto data.",
-        "images/ABTesting.png",
+        "images/HugChat.png",
         "https://hugchat.streamlit.app/",
         "https://github.com/dataprofessor/hugchat",
     )
