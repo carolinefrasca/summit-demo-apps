@@ -253,19 +253,19 @@ with col1:
     )
 with col2:
     app(
-        "ML Tools",
+        "DCR Setup Assistant",
         "Create machine learning tools for others to use your models. This app generates images using the Deep Dream technique.",
-        "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/demo-deepdream/master",
+        "images/DCRSetup.png",
+        "https://snowflake-labs-sfquickstart-data-cle-dcr-setup-assistant-bkx7gg.streamlit.app/,
         "demo-deepdream",
     )
 with col3:
     app(
-        "Data Browser",
+        "Snowflake Table Catalog",
         "Explore large datasets for input into ML models. This app displays self-driving car data and does real-time detection using YOLO.",
-        "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/demo-self-driving/master",
-        "demo-self-driving",
+        "images/SnowflakeTable.png",
+        "https://snow-table-catalog.streamlit.app/",
+        "https://github.com/mydgd/snowflake-table-catalog",
     )
 
 category("📊 Data Visualization")
