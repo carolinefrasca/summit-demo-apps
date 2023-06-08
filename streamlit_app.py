@@ -219,7 +219,7 @@ with col1:
     app(
         "KnowledgeGPT",
         "Make data apps to interactively explore data. In this case, check out NYC Uber pickups.",
-        "images/ABTesting.png",
+        "images/KnowledgeGPT.png",
         "https://knowledgegpt.streamlit.app/",
         "https://github.com/mmz-001/knowledge_gpt",
     )
