@@ -268,15 +268,15 @@ with col3:
         "https://github.com/mydgd/snowflake-table-catalog",
     )
 
-category("📊 Data Visualization")
+category("📊 Other Awesome Apps")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Info Sharing",
+        "Music through the Ages",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
         "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/roadmap",
-        "roadmap",
+        "https://tanul-mathur-music-through-the-ages-appfinal-g5rb85.streamlit.app/",
+        "https://github.com/tanul-mathur/music-through-the-ages",
     )
 with col2:
     app(
