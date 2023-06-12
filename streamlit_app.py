@@ -280,11 +280,69 @@ with col1:
     )
 with col2:
     app(
-        "A/B Testing",
+        "What songs were popular when I was in high school?",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-ab-testing/main",
-        "example-app-ab-testing",
+        "https://top-songs.streamlit.app/",
+        "https://github.com/robertritz/datafantic_spotify_playlists/blob/main/streamlit_app.py",
+    )
+with col3:
+    app(
+        "Would you have survived the Titanic?",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/ABTesting.png",
+        "https://s-deferrari-titanic-streamlit-app-main-w6ztqt.streamlit.app/",
+        "https://github.com/S-DeFerrari/titanic_streamlit_app",
+    )
+col1, col2, col3 = st.columns(3)
+with col1:
+    app(
+        "PDF Generator",
+        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
+        "images/ABTesting.png",
+        "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
+        "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
+    )
+with col2:
+    app(
+        "Image Background Remover",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/ABTesting.png",
+        "https://bgremoval.streamlit.app/",
+        "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
+    )
+with col3:
+    app(
+        "Face-GAN Explorer",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/ABTesting.png",
+        "https://streamlit-demo-face-gan-streamlit-app-v2nxgz.streamlit.app/",
+        "https://github.com/streamlit/demo-face-gan",
+    )
+col1, col2, col3 = st.columns(3)
+with col1:
+    app(
+        "PDF Generator",
+        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
+        "images/ABTesting.png",
+        "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
+        "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
+    )
+with col2:
+    app(
+        "Image Background Remover",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/ABTesting.png",
+        "https://bgremoval.streamlit.app/",
+        "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
+    )
+with col3:
+    app(
+        "Face-GAN Explorer",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/ABTesting.png",
+        "https://streamlit-demo-face-gan-streamlit-app-v2nxgz.streamlit.app/",
+        "https://github.com/streamlit/demo-face-gan",
     )
     
 category("🏆 Summit Hackathon Winners")
