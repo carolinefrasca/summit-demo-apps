@@ -299,11 +299,11 @@ category("📊 Other Awesome Apps")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Music through the Ages",
-        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
-        "images/ABTesting.png",
-        "https://tanul-mathur-music-through-the-ages-appfinal-g5rb85.streamlit.app/",
-        "https://github.com/tanul-mathur/music-through-the-ages",
+        "Fidelity Account Overview",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/Fidelity.png",
+        "https://gerardrbentley-fidelity-account-overview-app-ezld5n.streamlit.app/",
+        "https://github.com/gerardrbentley/fidelity-account-overview/blob/main/app.py",
     )
 with col2:
     app(
@@ -315,11 +315,11 @@ with col2:
     )
 with col3:
     app(
-        "Fidelity Account Overview",
-        "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/Fidelity.png",
-        "https://gerardrbentley-fidelity-account-overview-app-ezld5n.streamlit.app/",
-        "https://github.com/gerardrbentley/fidelity-account-overview/blob/main/app.py",
+        "Music through the Ages",
+        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
+        "images/ABTesting.png",
+        "https://tanul-mathur-music-through-the-ages-appfinal-g5rb85.streamlit.app/",
+        "https://github.com/tanul-mathur/music-through-the-ages",
     )
 col1, col2, col3 = st.columns(3)
 with col1:
