@@ -272,7 +272,7 @@ category("🏆 Summit Hackathon Winners")
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "snowChat",
+        "First Place: snowChat",
         "Easily collect data from users and write to a database.",
         "images/snowChat.png",
         "https://snowchat.streamlit.app/",
@@ -280,7 +280,7 @@ with col1:
     )
 with col2:
     app(
-        "The Oracle of Omaha",
+        "Second Place: The Oracle of Omaha",
         "Quickly generate a PDF file using data collected from user input.",
         "images/Oracle.png",
         "https://jrpettus-streamlit-buffett-buffett-app-hqw5pq.streamlit.app/",
@@ -288,7 +288,7 @@ with col2:
     )
 with col3:
     app(
-        "Instant Insight",
+        "Third Place: Instant Insight",
         "Allow viewers of your app to collaborate via a commenting feature.",
         "images/InstantInsight.png",
         "https://arsentievalex-instant-insight-web-app-main-gz753r.streamlit.app/",
