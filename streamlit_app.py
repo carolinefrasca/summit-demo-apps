@@ -307,11 +307,11 @@ with col1:
     )
 with col2:
     app(
-        "What songs were popular when I was in high school?",
+        "Lord of the Rings Text Generator",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
-        "https://top-songs.streamlit.app/",
-        "https://github.com/robertritz/datafantic_spotify_playlists/blob/main/streamlit_app.py",
+        "https://christian-doucette-tolkein-text-streamlit-app-mf2i7g.streamlit.app/",
+        "https://github.com/christian-doucette/tolkein_text",
     )
 with col3:
     app(
