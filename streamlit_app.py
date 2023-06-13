@@ -282,7 +282,7 @@ with col2:
     app(
         "Ask the Oracle of Omaha",
         "Quickly generate a PDF file using data collected from user input.",
-        "images/ABTesting.png",
+        "images/Oracle.png",
         "https://jrpettus-streamlit-buffett-buffett-app-hqw5pq.streamlit.app/",
         "https://github.com/jrpettus/streamlit-buffett/blob/main/buffett_app.py",
     )
