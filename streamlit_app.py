@@ -317,7 +317,7 @@ with col3:
     app(
         "Music through the Ages",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
-        "images/ABTesting.png",
+        "images/Music.png",
         "https://tanul-mathur-music-through-the-ages-appfinal-g5rb85.streamlit.app/",
         "https://github.com/tanul-mathur/music-through-the-ages",
     )
