@@ -290,7 +290,7 @@ with col3:
     app(
         "Instant Insight",
         "Allow viewers of your app to collaborate via a commenting feature.",
-        "images/ABTesting.png",
+        "images/InstantInsight.png",
         "https://arsentievalex-instant-insight-web-app-main-gz753r.streamlit.app/",
         "https://github.com/arsentievalex/instant-insight-web-app/blob/main/main.py",
     )
