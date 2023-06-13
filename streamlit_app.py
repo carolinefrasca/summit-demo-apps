@@ -274,7 +274,7 @@ with col1:
     app(
         "snowChat",
         "Easily collect data from users and write to a database.",
-        "images/ABTesting.png",
+        "images/snowChat.png",
         "https://snowchat.streamlit.app/",
         "https://github.com/kaarthik108/snowchat/blob/main/main.py",
     )
