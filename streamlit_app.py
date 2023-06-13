@@ -315,11 +315,11 @@ with col2:
     )
 with col3:
     app(
-        "Would you have survived the Titanic?",
+        "Fidelity Account Overview",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/ABTesting.png",
-        "https://s-deferrari-titanic-streamlit-app-main-w6ztqt.streamlit.app/",
-        "https://github.com/S-DeFerrari/titanic_streamlit_app",
+        "images/Fidelity.png",
+        "https://gerardrbentley-fidelity-account-overview-app-ezld5n.streamlit.app/",
+        "https://github.com/gerardrbentley/fidelity-account-overview/blob/main/app.py",
     )
 col1, col2, col3 = st.columns(3)
 with col1:
