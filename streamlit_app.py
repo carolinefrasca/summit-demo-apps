@@ -351,7 +351,7 @@ with col1:
     app(
         "Background Remover",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/ABTesting.png",
+        "images/BackgroundRemover.png",
         "https://bgremoval.streamlit.app/",
         "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
     )
