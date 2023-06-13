@@ -326,7 +326,7 @@ with col1:
     app(
         "Roadmap",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/ABTesting.png",
+        "images/Roadmap.png",
         "https://roadmap.streamlit.app/",
         "https://github.com/streamlit/roadmap/blob/master/streamlit_app.py",
     )
