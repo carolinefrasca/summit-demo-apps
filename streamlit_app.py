@@ -309,7 +309,7 @@ with col2:
     app(
         "Lord of the Rings Text Generator",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/ABTesting.png",
+        "images/LOTR.png",
         "https://christian-doucette-tolkein-text-streamlit-app-mf2i7g.streamlit.app/",
         "https://github.com/christian-doucette/tolkein_text",
     )
