@@ -326,13 +326,13 @@ with col1:
     app(
         "PDF Generator",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
-        "images/ABTesting.png",
+        "images/PDFGenerator.png",
         "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
         "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
     )
 with col2:
     app(
-        "Image Background Remover",
+        "Background Remover",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
         "https://bgremoval.streamlit.app/",
