@@ -322,27 +322,27 @@ with col3:
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "PDF Generator",
+        "Components Hub",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
         "images/ABTesting.png",
-        "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
-        "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
+        "https://components.streamlit.app/",
+        "https://github.com/jrieke/components-hub/blob/main/streamlit_app.py",
     )
 with col2:
     app(
-        "Image Background Remover",
+        "Streamlit Roadmap",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
-        "https://bgremoval.streamlit.app/",
-        "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
+        "https://roadmap.streamlit.app/",
+        "https://github.com/streamlit/roadmap/blob/master/streamlit_app.py",
     )
 with col3:
     app(
-        "Face-GAN Explorer",
+        "NYC Uber Data Explorer",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
-        "https://streamlit-demo-face-gan-streamlit-app-v2nxgz.streamlit.app/",
-        "https://github.com/streamlit/demo-face-gan",
+        "https://streamlit-demo-uber-nyc-pickups-streamlit-app-456wus.streamlit.app/",
+        "https://github.com/streamlit/demo-uber-nyc-pickups/blob/main/streamlit_app.py",
     )
     
 category("🏆 Summit Hackathon Winners")
