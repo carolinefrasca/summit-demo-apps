@@ -342,7 +342,7 @@ with col3:
     app(
         "Face-GAN Explorer",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/ABTesting.png",
+        "images/FaceGAN.png",
         "https://streamlit-demo-face-gan-streamlit-app-v2nxgz.streamlit.app/",
         "https://github.com/streamlit/demo-face-gan",
     )
@@ -371,8 +371,6 @@ with col3:
         "https://streamlit-demo-uber-nyc-pickups-streamlit-app-456wus.streamlit.app/",
         "https://github.com/streamlit/demo-uber-nyc-pickups/blob/main/streamlit_app.py",
     )
-    
-
     
 st.header("🤩 Want more example apps?")
 gallery_link = "https://streamlit.io/gallery"
