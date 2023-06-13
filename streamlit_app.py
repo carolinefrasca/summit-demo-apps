@@ -332,11 +332,11 @@ with col1:
     )
 with col2:
     app(
-        "Background Remover",
-        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "Components Hub",
+        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
         "images/ABTesting.png",
-        "https://bgremoval.streamlit.app/",
-        "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
+        "https://components.streamlit.app/",
+        "https://github.com/jrieke/components-hub/blob/main/streamlit_app.py",
     )
 with col3:
     app(
@@ -349,11 +349,11 @@ with col3:
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Components Hub",
-        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
+        "Background Remover",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/ABTesting.png",
-        "https://components.streamlit.app/",
-        "https://github.com/jrieke/components-hub/blob/main/streamlit_app.py",
+        "https://bgremoval.streamlit.app/",
+        "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
     )
 with col2:
     app(
