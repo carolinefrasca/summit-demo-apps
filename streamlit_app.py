@@ -334,7 +334,7 @@ with col2:
     app(
         "Components Hub",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
-        "images/ABTesting.png",
+        "images/Components.png",
         "https://components.streamlit.app/",
         "https://github.com/jrieke/components-hub/blob/main/streamlit_app.py",
     )
