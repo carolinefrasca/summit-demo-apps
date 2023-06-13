@@ -324,11 +324,11 @@ with col3:
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "PDF Generator",
-        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
-        "images/PDFGenerator.png",
-        "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
-        "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
+        "Roadmap",
+        "Upload your experiment results to explore the statistical significance of an A/B test.",
+        "images/ABTesting.png",
+        "https://roadmap.streamlit.app/",
+        "https://github.com/streamlit/roadmap/blob/master/streamlit_app.py",
     )
 with col2:
     app(
@@ -357,11 +357,11 @@ with col1:
     )
 with col2:
     app(
-        "Streamlit Roadmap",
-        "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/ABTesting.png",
-        "https://roadmap.streamlit.app/",
-        "https://github.com/streamlit/roadmap/blob/master/streamlit_app.py",
+        "PDF Generator",
+        "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
+        "images/PDFGenerator.png",
+        "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
+        "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
     )
 with col3:
     app(
