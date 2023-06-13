@@ -280,7 +280,7 @@ with col1:
     )
 with col2:
     app(
-        "Ask the Oracle of Omaha",
+        "The Oracle of Omaha",
         "Quickly generate a PDF file using data collected from user input.",
         "images/Oracle.png",
         "https://jrpettus-streamlit-buffett-buffett-app-hqw5pq.streamlit.app/",
