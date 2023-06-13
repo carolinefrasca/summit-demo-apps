@@ -268,6 +268,33 @@ with col3:
         "https://github.com/mydgd/snowflake-table-catalog",
     )
 
+category("🏆 Summit Hackathon Winners")
+col1, col2, col3 = st.columns(3)
+with col1:
+    app(
+        "snowChat",
+        "Easily collect data from users and write to a database.",
+        "images/ABTesting.png",
+        "https://snowchat.streamlit.app/",
+        "https://github.com/kaarthik108/snowchat/blob/main/main.py",
+    )
+with col2:
+    app(
+        "Ask the Oracle of Omaha",
+        "Quickly generate a PDF file using data collected from user input.",
+        "images/ABTesting.png",
+        "https://jrpettus-streamlit-buffett-buffett-app-hqw5pq.streamlit.app/",
+        "https://github.com/jrpettus/streamlit-buffett/blob/main/buffett_app.py",
+    )
+with col3:
+    app(
+        "Instant Insight",
+        "Allow viewers of your app to collaborate via a commenting feature.",
+        "images/ABTesting.png",
+        "https://arsentievalex-instant-insight-web-app-main-gz753r.streamlit.app/",
+        "https://github.com/arsentievalex/instant-insight-web-app/blob/main/main.py",
+    )
+
 category("📊 Other Awesome Apps")
 col1, col2, col3 = st.columns(3)
 with col1:
@@ -345,32 +372,7 @@ with col3:
         "https://github.com/streamlit/demo-uber-nyc-pickups/blob/main/streamlit_app.py",
     )
     
-category("🏆 Summit Hackathon Winners")
-col1, col2, col3 = st.columns(3)
-with col1:
-    app(
-        "Database Example",
-        "Easily collect data from users and write to a database.",
-        "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-bug-report/main",
-        "example-app-bug-report",
-    )
-with col2:
-    app(
-        "File Generation",
-        "Quickly generate a PDF file using data collected from user input.",
-        "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-pdf-report/main",
-        "example-app-pdf-report",
-    )
-with col3:
-    app(
-        "Collaboration",
-        "Allow viewers of your app to collaborate via a commenting feature.",
-        "images/ABTesting.png",
-        "https://share.streamlit.io/streamlit/example-app-commenting/main",
-        "example-app-commenting",
-    )
+
     
 st.header("🤩 Want more example apps?")
 gallery_link = "https://streamlit.io/gallery"
