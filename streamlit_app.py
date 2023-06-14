@@ -372,6 +372,6 @@ with col3:
         "https://github.com/streamlit/demo-uber-nyc-pickups/blob/main/streamlit_app.py",
     )
     
-st.header("🤩 Want more example apps?")
+st.header("🤩 Want more apps?")
 gallery_link = "https://streamlit.io/gallery"
 st.write("[Check out our app gallery!](%s)" % gallery_link)
