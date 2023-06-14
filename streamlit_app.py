@@ -357,10 +357,10 @@ with col1:
     )
 with col2:
     app(
-        "Diploma PDF Generator",
+        "Invoice PDF Generator",
         "Share data or information with others. This app pulls Streamlit's roadmap via the Notion API.",
         "images/PDFGenerator.png",
-        "https://streamlit-example-app-pdf-report-streamlit-app-rolxw3.streamlit.app/",
+        "https://github.com/streamlit/example-app-invoice-generator",
         "https://github.com/streamlit/example-app-pdf-report/blob/main/streamlit_app.py",
     )
 with col3:
