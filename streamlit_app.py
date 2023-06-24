@@ -349,11 +349,11 @@ with col3:
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Background Remover",
+        "Summit 2023 Trading Card Generator",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/BackgroundRemover.png",
-        "https://bgremoval.streamlit.app/",
-        "https://github.com/tyler-simons/backgroundremoval/blob/main/bg_remove.py",
+        "images/TradingCard.png",
+        "https://tradingcardapp.streamlit.app/",
+        "https://github.com/sfc-gh-tkipkemboi/trading-card-generator/blob/main/streamlit_app.py",
     )
 with col2:
     app(
