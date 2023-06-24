@@ -349,7 +349,7 @@ with col3:
 col1, col2, col3 = st.columns(3)
 with col1:
     app(
-        "Summit 2023 Trading Card Generator",
+        "Summit Trading Card Generator",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
         "images/TradingCard.png",
         "https://tradingcardapp.streamlit.app/",
