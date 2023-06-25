@@ -351,7 +351,7 @@ with col1:
     app(
         "Summit Trading Card Generator",
         "Upload your experiment results to explore the statistical significance of an A/B test.",
-        "images/TradingCard.png",
+        "images/Music.png",
         "https://tradingcardapp.streamlit.app/",
         "https://github.com/sfc-gh-tkipkemboi/trading-card-generator/blob/main/streamlit_app.py",
     )
